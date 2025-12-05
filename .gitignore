@@ -1,0 +1,16 @@
+# Build directories
+build/
+cmake-build-debug/
+
+# OS generated files
+.DS_Store
+.vscode/
+
+# Large data files
+20980712_uniq_words.txt
+*.trace
+
+# Generated output
+LRUTraceGenerator_output/
+LRU_csv/
+
