@@ -13,4 +13,4 @@ cmake-build-debug/
 # Generated output
 LRUTraceGenerator_output/
 LRU_csv/
-*.png
+

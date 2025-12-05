@@ -86,12 +86,20 @@ make
 
 To run the Trace Generator:
 
-
 ```bash
 cd build
 ./LRUTraceGenerator
 ```
 This will generate trace files in the `LRUTraceGenerator_output/` directory.
+
+To run the harness:
+Example
+```
+cd build
+./HashTablesOpenAddressing ../LRUTraceGenerator_output/<file>.trace <single,double>
+./HashTablesOpenAddressing ../LRUTraceGenerator_output/lru_profile_N_1024_S_23.trace single
+```
+
 
 To run the full experiment (Recommended):
 
