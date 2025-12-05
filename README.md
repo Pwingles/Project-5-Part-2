@@ -72,22 +72,7 @@ Running `bash collect_data.sh` should:
 3. Run the harness for all defined sizes.
 4. Output `Data collection complete!` and save results to `LRU_csv/lru_results.csv`.
 
-File Structure
 
-Project 5 part 2/
-├── build/                      # Compiled executables
-├── LRU_csv/                    # Output CSV data
-├── LRUTraceGenerator_output/   # Generated trace files
-├── src/
-│   ├── main.cpp                # Harness entry point
-│   ├── HashTableDictionary.cpp # Hash Table implementation
-│   ├── HashTableDictionary.hpp
-│   ├── LRUTraceGenerator.cpp   # Trace Generator
-│   └── ...
-├── collect_data.sh             # Automation script
-├── CMakeLists.txt              # Build config
-├── Rodriguez_Kevin_project5_part2_report.md # Final Report
-└── README.md                   # This file
 
 Build Instructions
 
